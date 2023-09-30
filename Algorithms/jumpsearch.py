@@ -1,5 +1,5 @@
 def ordered_linear_search(array,target):
-  # ordered_linear_search is a helper function
+  # ordered_linear_search acts as a helper function here
 	for item in array: # <- iterates through array
 		if item == target: # <- return True if found
 			return True

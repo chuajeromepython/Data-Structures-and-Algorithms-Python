@@ -42,6 +42,6 @@ print(jumpsearch(array,t1))
 print(jumpsearch(array,t2))
 # t2 is contained in block 1, m_block[-1] > target evaluetes to True, ordered_linear_search is called and returns True
 print(jumpsearch(array,t3))
-# t3 should appear somewhere in block 2, ordered_linear_search is called and return False since t1 is not contained in block 2
+# t3 should appear somewhere in block 2, ordered_linear_search is called and return False since t3 is not contained in block 2
 print(jumpsearch(array,t4))
 # since max(array) is less than t4, i keeps incrementing by 3 until i < n evaluates to False, returns False

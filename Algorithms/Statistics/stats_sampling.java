@@ -23,6 +23,7 @@ public class Sampling {
 	}
 	
 	public static int getSampleSize(int N,double e){
+	    // slovin's formula
 	    double sampleSize = N / (1 + (N * (Math.pow(e,2))));
 	    return (int) Math.round(sampleSize);   
 	}

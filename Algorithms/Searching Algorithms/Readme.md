@@ -5,3 +5,4 @@ Algorithms used to find items or their indices inside container type data struct
 * Jumpsearch
 * Binary Search (iterative and recursive)
 * Interpolation Search
+* Exponential Search

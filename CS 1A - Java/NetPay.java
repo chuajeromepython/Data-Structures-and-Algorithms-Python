@@ -59,7 +59,8 @@ class Employee{
         System.out.printf("Pension Plan:                      $%.2f%n",pp); 
         System.out.printf("Health Insurance:                  $%.2f%n",h_i);
         System.out.println("--------------------------------------------");
-        System.out.printf("Net Pay:                           $%.2f%n",netpay);         }     
+        System.out.printf("Net Pay:                           $%.2f%n",netpay);         
+    }     
 }
 
 public class Main {

@@ -50,11 +50,11 @@ class Employee{
         System.out.println("********************************************");
         System.out.println("               Employee PaySlip");
         System.out.println("Employee Name:                  "+ this.formatName());
-         System.out.printf("Monthly Pay:                      $%.2f%n\n",this.pay);
-         System.out.println("Deduction(s)");
-         System.out.printf("Federal Income:                    $%.2f%n",ft);
-         System.out.printf("State Tax:                         $%.2f%n",st); 
-         System.out.printf("Social Security Tax:               $%.2f%n",sst); 
+        System.out.printf("Monthly Pay:                      $%.2f%n\n",this.pay);
+        System.out.println("Deduction(s)");
+        System.out.printf("Federal Income:                    $%.2f%n",ft);
+        System.out.printf("State Tax:                         $%.2f%n",st); 
+        System.out.printf("Social Security Tax:               $%.2f%n",sst); 
         System.out.printf("Medicare Tax:                      $%.2f%n",mt);
         System.out.printf("Pension Plan:                      $%.2f%n",pp); 
         System.out.printf("Health Insurance:                  $%.2f%n",h_i);

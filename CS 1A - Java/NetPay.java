@@ -17,20 +17,20 @@ class Employee{
         double fed_tax, state_tax, soc_sec_tax, med_tax, pen_plan, h_i;
         System.out.println("\nFiling Deductions...\n");
         Scanner scan = new Scanner(System.in);
-		System.out.print("Enter Federal Tax: ");
-		fed_tax = scan.nextDouble();
-		System.out.print("Enter State Tax: ");
-		state_tax = scan.nextDouble();
-		System.out.print("Enter Social Security Tax: ");
-		soc_sec_tax = scan.nextDouble();
-		System.out.print("Enter Medicare Tax: ");
-		med_tax = scan.nextDouble();
-		System.out.print("Enter Pension Plan: ");
-		pen_plan = scan.nextDouble();
-		System.out.print("Enter Health Insurance: ");
-		h_i = scan.nextDouble();
-		System.out.println(" ");
-		this.getInfo(fed_tax,state_tax,soc_sec_tax,med_tax,pen_plan,h_i);            
+	System.out.print("Enter Federal Tax: ");
+	fed_tax = scan.nextDouble();
+	System.out.print("Enter State Tax: ");
+	state_tax = scan.nextDouble();
+	System.out.print("Enter Social Security Tax: ");
+	soc_sec_tax = scan.nextDouble();
+	System.out.print("Enter Medicare Tax: ");
+	med_tax = scan.nextDouble();
+	System.out.print("Enter Pension Plan: ");
+	pen_plan = scan.nextDouble();
+	System.out.print("Enter Health Insurance: ");
+	h_i = scan.nextDouble();
+	System.out.println(" ");
+	this.getInfo(fed_tax,state_tax,soc_sec_tax,med_tax,pen_plan,h_i);            
     }
     
     public void getInfo(double fed_tax, double state_tax, double soc_sec_tax, double med_tax, double pen_plan, double h_i){

@@ -1,1 +1,1 @@
-# CS 1A Java projects
+# CS 1A Java programs

@@ -23,7 +23,7 @@ public class Main {
     	         } else {
     	             System.out.println("Invalid grade");
     	         }
-    	         System.out.print("Continue? y/n: ");
+    	         System.out.print("Press y to continue, n to exit: ");
     	         char prompt = scan.next().charAt(0);
     	         if (prompt == 'n'){
     	             flag = false;
@@ -32,6 +32,6 @@ public class Main {
     	             System.out.println("Invalid input. Try again");
     	             scan.nextLine();
     	        }
-		}
-	}
+		   }
+	  }
 }

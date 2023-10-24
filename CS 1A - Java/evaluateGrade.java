@@ -1,4 +1,4 @@
-oimport java.util.Scanner;
+import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class Main {
@@ -31,7 +31,7 @@ public class Main {
     	         } catch (InputMismatchException IME){
     	             System.out.println("Invalid input. Try again");
     	             scan.nextLine();
-    	       }
+		    }
 		}
 	}
 }

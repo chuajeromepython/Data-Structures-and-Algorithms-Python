@@ -22,3 +22,7 @@ public class Main{
 		}						
 	}
 }
+/* addressed to Sir, Jerome. 
+The program asks the user for 3 integers side_a, side_b, and side_c,
+then the "check" function checks to see if the numbers make a right triangle
+if check returns true, it's a triangle, false otherwise. */

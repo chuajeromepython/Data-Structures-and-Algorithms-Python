@@ -5,7 +5,7 @@ public class Main {
 		double tolerance = 1e-6;
 		double left = Math.pow(a,2) + Math.pow(b,2);
 		double right = Math.pow(c,2);
-		return Math.abs(left - right) < tolerance;
+		return Math.abs(left - right) <= tolerance;
 	}
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

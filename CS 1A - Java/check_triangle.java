@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class Main{
-	public static boolean check(int a, int b, int c){
-		if ((Math.pow(a,2) + Math.pow(b,2)) == Math.pow(c,2)){
+public class Main {
+	public static boolean check(double a, double b, double c){
+		if (Math.floor(Math.pow(a,2) + Math.pow(b,2)) == Math.floor(Math.pow(c,2))){
 			return true;
 		}
 		return false;
-	}
-	public static void main(String[] args){
+	}	
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter side a: ");
-		int side_a = scan.nextInt();
+		double side_a = scan.nextDouble();
 		System.out.print("Enter side b: ");
-		int side_b = scan.nextInt();
+		double side_b = scan.nextDouble();
 		System.out.print("Enter side c: ");
-		int side_c = scan.nextInt();
+		double side_c = scan.nextDouble();
 		if (check(side_a,side_b,side_c)){
 			System.out.println("This is a right triangle");
 		} else {
@@ -22,7 +22,7 @@ public class Main{
 		}						
 	}
 }
-/* addressed to Sir, Jerome. 
+/* submitted to Sir, Jerome. 
 The program asks the user for 3 integers side_a, side_b, and side_c,
 then the "check" function checks to see if the numbers make a right triangle
 if check returns true, it's a triangle, false otherwise. */

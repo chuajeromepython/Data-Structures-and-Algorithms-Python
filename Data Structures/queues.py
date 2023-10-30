@@ -48,10 +48,10 @@ class Queue:
 	def __str__(self):
 		return str(self.main)
 
-	def __iter__(self):
+	def __iter__(self): # __iter__ sets up class Queue to become an iterable object
 		return self
 
-	def __next__(self):
+	def __next__(self): # __next__ tells the for loop below which item is to be retrieved
 		if self.index < self.size:
 			result = self.main[self.index]
 			self.index += 1

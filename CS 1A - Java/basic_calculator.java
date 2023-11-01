@@ -19,8 +19,7 @@ public class SwitchStatement {
 		double x = 0, y = 0;
 		char op;
 		Scanner scan = new Scanner(System.in);
-		System.out
-				.print("+ : for addition\n- : for subtraction\n* : for multiplication\n/ : for division\n");
+		System.out.print("+ : for addition\n- : for subtraction\n* : for multiplication\n/ : for division\n");
 		System.out.print("Select an operator: ");
 		op = scan.next().charAt(0);
 		try {

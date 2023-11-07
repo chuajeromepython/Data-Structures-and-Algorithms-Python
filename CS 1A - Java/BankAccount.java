@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-@SuppressWarnings("unused")
+@SuppressWarnings("unused") // ignore
 public class BankAccount{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);

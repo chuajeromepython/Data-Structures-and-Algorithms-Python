@@ -60,5 +60,4 @@ public class BankAccount{
 		System.out.println("Minimum balance: " + min_bal);
 		System.out.println("Current balance: " + curr_bal);
 	}
-
 }

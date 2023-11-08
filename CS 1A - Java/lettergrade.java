@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class GradeConverter {
     public static void main(String[] args) {
+        char letterGrade = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your grade: ");
         int grade = scanner.nextInt();
-        char letterGrade;
         if (grade < 0 || grade > 100){
-            System.out.println("Invalid grade");
-            return;
+            System.out.println("Invalid grade");  
         } else {
             switch (grade) {
             case 90:

@@ -1,16 +1,3 @@
-"""
-def hash_function(string):
-	mult = 1
-	hv = 0
-	for c in string:
-		hv += ord(c) * mult
-		mult += 1
-	return hv
-
-print(hash_function('hello world'))
-print(hash_function('gello xorld'))
-print(sum(map(ord,'egg'))%256)
-"""
 """ Implementation of the Hashmap using linear probing hash function """
 
 class KeyError(Exception): pass

@@ -1,13 +1,13 @@
 def round_to_nearest_nth(n,nth=0):
-    return round(n,nth)    
-
+	return round(n,nth)
+	
 def get_mean(data):
 	total = 0
 	N = len(data)
 	for dp in data:
 		total += dp
 	return total / N
-
+	
 def get_mode(data):
 	freq_table = {}
 	for dp in data:
@@ -41,8 +41,7 @@ def get_median(data):
 
 def get_weighted_mean(data,weights):
 	assert len(data) == len(weights), 'Invalid data and weights'
-	s_d_w = 0
-	s_w = 0
+	s_d_w, s_w = 0, 0
 	for i in range(max(len(data),len(weights))):
 		s_d_w += data[i] * weights[i]
 		s_w += weights[i]
@@ -61,4 +60,5 @@ print(get_mode([5,4,3,2,1]))
 print(get_median([5,4,3,2,1,0]))
 print(get_weighted_mean([5,4,3,2,1],[0,6,28,10,6]))
 print(get_variance([0,1,5,7,9,10,14],is_sample=True))
-print(get_std([0,1,5,7,9,10,14],is_sample=True))
+test = get_std([0,1,5,7,9,10,14],is_sample=True)
+print(round_to_nearest_nth(test,2)) #hundredths

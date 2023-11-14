@@ -1,5 +1,3 @@
-"""Implementation is same as the linear probing version, instead, quadrating probing adds n * n to the computed hash value """
-
 class KeyError(Exception): pass
 
 class AttributeError(Exception): pass

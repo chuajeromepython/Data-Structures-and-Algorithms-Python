@@ -35,9 +35,11 @@ def get_mode(data):
 
 def get_median(data):
 	mid = len(data)//2
-	if len(data) % 2 == 0:
-		return (data[mid] + data[mid-1]) / 2
-	return data[mid]
+	sorted_data = list(data)
+	sorted_data.sort()
+	if len(sorted_data) % 2 == 0:
+		return (sorted_data[mid] + sorted_data[mid-1]) / 2
+	return sorted_data[mid]
 
 def get_weighted_mean(data,weights):
 	assert len(data) == len(weights), 'Invalid data and weights'

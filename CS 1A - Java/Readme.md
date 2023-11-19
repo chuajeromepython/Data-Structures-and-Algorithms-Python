@@ -7,7 +7,7 @@ In which battle did Napoleon die?-his last one
 
 Enumerate something-item 1, item 2, item 3, ... item N
 
-* Make sure the question and answer are separated by whatever character is assigned to the variable "regex" (you can change that), otherwise your answer won't be checked agaisnt the correct answer. And also, make sure the question and answer don't contain that character.
+* Make sure the question and answer are separated by whatever character is assigned to the variable "regex" (you can change to however you want the question and answer to be split), otherwise your answer won't be checked agaisnt the correct answer. And also, make sure the question and answer don't contain that character.
 * The program handles case sensitivity, so ANSWER is the same as answer.
 * Save the txt file.
 * After that, if you're on a pc, just copy the address of that txt file and paste it to the "filename" variable as a string. If you're on mobile, make sure you save the txt file within the folder your Java IDE app or whatever is using to store your Java programs.

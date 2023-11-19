@@ -28,7 +28,6 @@ public class Reviewer{
             Scanner scanner = new Scanner(System.in);
             System.out.print("Answer: ");
             String answer = scanner.nextLine();
-
             if (answer.equalsIgnoreCase(picker.split("-")[1])) {
                 System.out.println("CORRECT: Definition -> " + picker + "\n");
                 score++;
@@ -37,7 +36,6 @@ public class Reviewer{
             }
             counter += 1;
         }
-
         System.out.println("Score: " + score + "/" + totalQuestions);
     }
 }

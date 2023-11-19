@@ -2,7 +2,7 @@
 # How to use the reviewer?
 * Copy the program and paste it to your project. Change the filename or name of the program if needed.
 * Create a .txt file.
-* Format the txt file like this (question-answer):
+* Format the txt file like this (question-answer, no spaces between the dash):
 
 In which battle did Napoleon die?-his last one
 

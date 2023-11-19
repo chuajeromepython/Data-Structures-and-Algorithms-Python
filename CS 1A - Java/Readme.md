@@ -1,5 +1,6 @@
 # CS 1A Java programs
 # How to use the reviewer?
+* Copy the program and paste it to your project. Change the filename or name of the program if needed.
 * Create a .txt file.
 * Format the txt file like this (question-answer):
 

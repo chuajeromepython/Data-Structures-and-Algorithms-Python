@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Reviewer{
     public static void main(String[] args){
         String regex = "-"; 
-        String filename = "history_midterm.txt";
+        String filename = "path_to_the_txt_file_here";
         List<String> questions;
         try {
             questions = Files.readAllLines(Paths.get(filename));

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.regex.*;
 
 
-public class DamnThisCalcu {
+public class ExpressionParser {
 	public static int thisContains(HashMap<String, Integer> map, String key){
 		int value;
 		if (map.containsKey(key)){

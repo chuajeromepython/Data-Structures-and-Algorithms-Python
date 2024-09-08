@@ -79,7 +79,7 @@ public class EmployeePaySlipp {
 	void print(){
 		double tax = salary - (salary * taxrate/100);	
 		String m = "Employee Name: " +  this.name + "\nEmployee Salary: " + this.salary + "\nEmployee Address: " + this.address + "\nEmployee PaySlip: " + tax;
-		JOptionPane.showMessageDialog(f, m);
+		JOptionPane.showMessageDialog(f, m, "Employee Payslip", JOptionPane.PLAIN_MESSAGE);
 	}
 	
 	public static void main(String[] args) {

@@ -1,0 +1,32 @@
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <body>
+            <h1>This Is The Home Page</h1>
+            <p>{{content}}</p>
+            <p>{{r}}</p>
+            {%for x in range(11)%}
+               {%if x % 2 == 0%}
+                    <p>{{x}} is even</p>
+               {%endif%}
+            {%endfor%}
+            {%for v in vals%}
+                <p>{{v}}</p>
+            {%endfor%}
+        </body>
+    </head>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Page</title>
+            <body>
+                <h1>This is the Welcome Page</h1>
+                <a href="{{url_for('about')}}">Go to About Page</a>
+            </body>
+    </head>
+
+</html>

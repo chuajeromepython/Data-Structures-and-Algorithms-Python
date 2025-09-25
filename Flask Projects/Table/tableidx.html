@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iris Flower Table</title>
+        <body>
+            <h1 align="center">Iris Specification Table</h1>
+            <table border="1", rules="all", align="center">
+            <tr>
+                {%for col in data.columns%}
+                <th align="center", width="120">{{col}}</th>
+                {%endfor%}
+            </tr>
+            {%for idx in range(data.shape[0])%}
+            <tr>
+                {%for val in data.iloc[idx].values%}
+                    <td align="center", width="120">{{val}}</td>
+                    {%endfor%}
+            </tr>
+            {%endfor%}
+            </table>
+        </body>
+    </head>
+</html>

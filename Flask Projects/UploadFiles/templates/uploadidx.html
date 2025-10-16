@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload File</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}"> 
+        <body>
+            <h1>Upload your File</h1>
+            <form action="/upload", method="post", enctype="multipart/form-data">
+                <input type="file" name="file">
+                <input type="submit" name="Upload">
+            </form>
+        <script src="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
+        </body>
+    </head>
+</html>

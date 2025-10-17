@@ -111,7 +111,7 @@ class LandingPage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.indigo,
           title: const Text(
-            'Welcome App',
+            'Welcome Back!',
             style: TextStyle(color: Colors.white),
           ),
           centerTitle: true,

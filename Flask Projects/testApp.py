@@ -1,5 +1,24 @@
+"""
+Download and Install MySQL.
+
+Run MySQL in cmd.
+
+Enter mysql -u root -p (enter password).
+
+Create database using CREATE DATABASE testdb;.
+
+Enter SHOW DATABASES; to see if created successfuly.
+
+Run testApp.py.
+"""
+
+
 from flask import Flask
 from flask_mysql_connector import MySQL
+
+#using flask_mysql_connector instead of flask_mysqldb
+#flask_mysqldb won't install on laptop
+#but everything is same, testApp still connects to a database
 
 app = Flask(__name__)
 
